@@ -1,5 +1,7 @@
 package aobi.game.flappybird
 {
+	import aobi.common.HitTest;
+	
 	import flash.display.Bitmap;
 	import flash.display.BitmapData;
 	import flash.display.DisplayObject;

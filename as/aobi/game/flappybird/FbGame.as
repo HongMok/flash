@@ -1,11 +1,16 @@
 package aobi.game.flappybird
 {
+	import aobi.common.ShakeHelper;
+	
+	import flash.display.Loader;
 	import flash.display.MovieClip;
 	import flash.display.SimpleButton;
 	import flash.events.Event;
 	import flash.events.KeyboardEvent;
 	import flash.events.MouseEvent;
 	import flash.geom.Point;
+	import flash.net.URLRequest;
+	import flash.system.LoaderContext;
 	import flash.text.TextField;
 	import flash.ui.Keyboard;
 
@@ -27,12 +32,11 @@ package aobi.game.flappybird
 		public function FbGame()
 		{
 			this.addEventListener(Event.ADDED_TO_STAGE, onATS);
+			
 		}
 		
 		protected function onATS(event:Event):void
 		{
-			this.removeEventListener(Event.ADDED_TO_STAGE, onATS);
-			
 			init();
 		}
 		
