@@ -9,15 +9,7 @@ for( var i = 0; i < fileList.length; i++ )
 	fl.trace("==" + fullPath);
 	doSingle( fullPath );
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-//mod sdf
-=======
-//mod mod2
->>>>>>> origin/master
-=======
-//mod
->>>>>>> parent of 74e19f2... mod in client and ignore server
+
 function doSingle( fullPath )
 {
 	var srcName = fullPath.split("/").pop();
