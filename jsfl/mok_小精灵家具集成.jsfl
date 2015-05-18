@@ -9,7 +9,11 @@ for( var i = 0; i < fileList.length; i++ )
 	fl.trace("==" + fullPath);
 	doSingle( fullPath );
 }
+<<<<<<< HEAD
 //mod sdf
+=======
+//mod mod2
+>>>>>>> origin/master
 function doSingle( fullPath )
 {
 	var srcName = fullPath.split("/").pop();
