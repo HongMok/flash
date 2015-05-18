@@ -10,7 +10,11 @@ for( var i = 0; i < fileList.length; i++ )
 	doSingle( fullPath );
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+//mod
+>>>>>>> parent of 74e19f2... mod in client and ignore server
 =======
 //mod
 >>>>>>> parent of 74e19f2... mod in client and ignore server
