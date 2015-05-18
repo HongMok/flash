@@ -4,7 +4,7 @@
 	2. 运行命令
 	3. 输入开始任务ID
 */
-
+//
 
 var startID = Number(prompt("开始任务ID:"));
 

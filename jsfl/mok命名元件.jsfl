@@ -4,6 +4,7 @@ if( sel.length == 0)
 {
 	alert("select none");
 }
+//sf
 else
 {
 	var prefix = prompt("please input prefix:", ["item"]);
