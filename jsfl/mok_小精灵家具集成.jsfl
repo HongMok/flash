@@ -9,7 +9,7 @@ for( var i = 0; i < fileList.length; i++ )
 	fl.trace("==" + fullPath);
 	doSingle( fullPath );
 }
-// mod in client
+
 function doSingle( fullPath )
 {
 	var srcName = fullPath.split("/").pop();
