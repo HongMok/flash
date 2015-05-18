@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Commands>
+  <name source="AIR - Application and Installer Settings" target="AIR - 应用程序和安装程序设置"></name>
+  <name source="AIR - Create AIR File" target="AIR - 创建 AIR 文件"></name>
+  <name source="Copy Motion as XML" target="将动画复制为 XML"></name>
+  <name source="Export Motion XML" target="导出动画 XML"></name>
+  <name source="Import Motion XML" target="导入动画 XML"></name>
+  <name source="Copy Font Name for ActionScript" target="复制 ActionScript 的字体名称"></name>
+  <name source="Convert Symbol to Flex Container" target="将元件转换为 Flex 容器"></name>
+  <name source="Convert Symbol to Flex Component" target="将元件转换为 Flex 组件"></name>
+</Commands>
